@@ -34,15 +34,15 @@
       },
       "versions": [
         {
-          "name": "0.1",
-          "code": 1,
-          "apk": "https://github.com/novaca1n/hive/releases/download/v0.1/hive-0.1.apk",
-          "sha256": "e092a0da7d48b83d155b15442a9eae3cd1e3a6a275d01082032b5413d3f1278c",
-          "size": 56326,
+          "name": "0.2",
+          "code": 2,
+          "apk": "https://github.com/novaca1n/hive/releases/download/v0.2/hive-0.2.apk",
+          "sha256": "8d257cfb339e6458f951adc7765b247b71fd52679eb6702084fb4aadd569071b",
+          "size": 57922,
           "date": "2026-10-28",
           "changelog": {
-            "en": "First preview",
-            "ru": "Первая предварительная версия"
+            "en": "New icon: seven honeycomb dots in your system colors, works with themed icons",
+            "ru": "Новый значок: семь сот в цветах системы, поддерживает тематические значки"
           }
         }
       ]
