@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "name": "novaca1n",
+  "description": {
+    "en": "Official tweaks for derealization",
+    "ru": "Официальные твики для derealization"
+  },
+  "maintainer": "novaca1n",
+  "tweaks": [
+    {
+      "id": "dev.novacain.hive",
+      "name": "Hive",
+      "author": "novaca1n",
+      "summary": {
+        "en": "Apple Watch–style honeycomb home screen",
+        "ru": "Рабочий стол-соты как на Apple Watch"
+      },
+      "description": {
+        "en": "All your apps as round icons in a honeycomb that you move with your finger in any direction; icons near the edges shrink like on the watch. Pinch to zoom. After unlocking the honeycomb grows ring by ring, and an app opens right out of its icon.\n\nIcons are the same as on your Nothing home screen, in derealization's colors, and your wallpaper stays behind.\n\nHive is a launcher: after installing, choose it in Settings → Apps → Default apps → Home app.\n\nPreview: right after unlocking the screen can stay black for about a second.",
+        "ru": "Все приложения — круглыми значками в сотах, которые двигаются пальцем в любую сторону; у краёв значки уменьшаются, как на часах. Щипок — масштаб. После разблокировки соты прорастают кольцо за кольцом, а приложение открывается прямо из значка.\n\nЗначки — как на столе Nothing, в цветах derealization, под сотами — твои обои.\n\nHive — лаунчер: после установки выбери его в Настройки → Приложения → Приложения по умолчанию → Главный экран.\n\nПредварительная версия: сразу после разблокировки экран может на секунду остаться чёрным."
+      },
+      "icon": "icons/hive.png",
+      "screenshots": [],
+      "type": "app",
+      "category": "launcher",
+      "license": "GPL-3.0",
+      "source": "https://github.com/novaca1n/hive",
+      "requires": {
+        "derealization": 50,
+        "devices": [
+          "galaga"
+        ],
+        "android": 36
+      },
+      "versions": [
+        {
+          "name": "0.1",
+          "code": 1,
+          "apk": "https://github.com/novaca1n/hive/releases/download/v0.1/hive-0.1.apk",
+          "sha256": "e092a0da7d48b83d155b15442a9eae3cd1e3a6a275d01082032b5413d3f1278c",
+          "size": 56326,
+          "date": "2026-10-28",
+          "changelog": {
+            "en": "First preview",
+            "ru": "Первая предварительная версия"
+          }
+        }
+      ]
+    }
+  ]
+}
